@@ -27,7 +27,7 @@ body, html {
 }
 
 .top-image {
-    top-image: url('Bluebar.jpg');
+    top-image:'Bluebar.jpg';
     width: 100%;
     border-radius: 10px 10px 0 0; /* Rounded corners on top */
 }
