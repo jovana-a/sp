@@ -10,7 +10,8 @@ body, html {
     background-size: cover; /* This makes the background cover the entire page */
     background-repeat: no-repeat; /* Prevents the image from repeating */
     background-position: center;
-    height: auto;
+    height: 100vh;
+    margin: 0;
     display: flex;
     justify-content: center;
     align-items: center;
