@@ -1,7 +1,7 @@
 body {
     margin: 0;
     padding: 0;
-    background-image: url("TL.jpg"); /* Background image */
+    background-image: TL.jpg; /* Background image */
     background-size: cover; /* Cover the entire background */
     height: 100vh; /* Full viewport height */
     display: flex;
