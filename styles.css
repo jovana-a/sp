@@ -6,7 +6,7 @@ body, html {
 }
 
 .background {
-    background-image: url('https://www.bing.com/images/search?view=detailV2&ccid=XmmxRRqZ&id=A647FAB1678E2F5C41B69FEB0850DEEFE9DAB00D&thid=OIP.XmmxRRqZW-to-hZvN5fW3AHaHa&mediaurl=https%3a%2f%2flogodownload.org%2fwp-content%2fuploads%2f2019%2f12%2fbrother-logo-0.png&cdnurl=https%3a%2f%2fth.bing.com%2fth%2fid%2fR.5e69b1451a995beb68fa166f3797d6dc%3frik%3dDbDa6e%252feUAjrnw%26pid%3dImgRaw%26r%3d0&exph=4096&expw=4096&q=brother+logo&simid=608047046527684235&FORM=IRPRST&ck=1D794F93EF04D545A12DF3D2180E8D6D&selectedIndex=0&itb=1&idpp=overlayview&ajaxhist=0&ajaxserp=0'); /* Replace with your image path */
+   background-image: url('https://www.brother.co.uk/-/media/images/brother-uk/blog/fallback-author-images/brother-blue-logo.ashx?h=800&la=en&w=1170&hash=90324B69C1DC5D01608D381FA4D23D924FBE2ED0'); /* Replace with your image path */
     background-size: cover;
     background-position: center;
     height: 100%;
