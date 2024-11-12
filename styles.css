@@ -6,8 +6,9 @@ body, html {
 }
 
 .background {
-   background-image: url('https://www.brother.co.uk/-/media/images/brother-uk/blog/fallback-author-images/brother-blue-logo.ashx?h=800&la=en&w=1170&hash=90324B69C1DC5D01608D381FA4D23D924FBE2ED0'); /* Replace with your image path */
-    background-size: cover;
+    background-image: url('TL.jpg');
+    background-size: cover; /* This makes the background cover the entire page */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
     background-position: center;
     height: 100%;
     display: flex;
