@@ -6,7 +6,7 @@ body, html {
 }
 
 .background {
-    background-image: url('TL.png'); /* Replace with your image path */
+    background-image: url('https://github.com/bonecrackerjovana/sp/blob/main/TL.jpg'); /* Replace with your image path */
     background-size: cover;
     background-position: center;
     height: 100%;
