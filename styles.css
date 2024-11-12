@@ -38,7 +38,7 @@ body, html {
 
 .link-box {
     display: block;
-    background-color: #98FF98; /* Mint color */
+    background-color: #35C4B5; /* Mint color */
     margin: 10px 0;
     padding: 15px;
     text-decoration: none;
@@ -48,5 +48,5 @@ body, html {
 }
 
 .link-box:hover {
-    background-color: #76e076; /* Darker mint on hover */
+    background-color: #35C4B5; /* Darker mint on hover */
 }
