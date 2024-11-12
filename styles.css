@@ -27,7 +27,7 @@ body, html {
 }
 
 .top-image {
-    top-image: url('C:\Users\AbutovFr\Desktop\smooth print app\publish version\second version mint boxes\TL.jpg');
+    top-image: url('TL.jpg');
     width: 100%;
     border-radius: 10px 10px 0 0; /* Rounded corners on top */
 }
