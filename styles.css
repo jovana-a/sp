@@ -4,7 +4,6 @@ body, html {
     height: 100%;
     font-family: Helvetica Neue LT W1G;
 }
-
 .background {
     background-image: url('Original Supplies_39.jpg');
     background-size: cover; /* This makes the background cover the entire page */
@@ -15,7 +14,6 @@ body, html {
     justify-content: center;
     align-items: center;
 }
-
 .container {
     background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white */
     width: 400px;
@@ -25,23 +23,19 @@ body, html {
     text-align: center;
     position: relative;
 }
-
 .top-image {
     width: 100%;
     border-radius: 10px 10px 0 0; /* Rounded corners on top */
 }
-
 .links {
     display: flex;
     justify-content: space-between;
     margin-top: 20px;
 }
-
 .left-links, .right-links {
     display: flex;
     flex-direction: column;
 }
-
 .link-box {
     display: block;
     background-color: #35C4B5; /* Mint color */
@@ -51,8 +45,9 @@ body, html {
     color: white;
     border-radius: 5px;
     transition: background-color 0.3s;
+    width: 180px; /* Set a fixed width for the link boxes */
+    box-sizing: border-box; /* Ensure padding and border are included in the width */
 }
-
 .link-box:hover {
     background-color: #2A9C8A; /* Darker mint on hover */
 }
