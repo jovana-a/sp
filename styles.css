@@ -27,13 +27,19 @@ body, html {
 }
 
 .top-image {
-    top-image: url('Bluebar.jpg');
     width: 100%;
     border-radius: 10px 10px 0 0; /* Rounded corners on top */
 }
 
 .links {
+    display: flex;
+    justify-content: space-between;
     margin-top: 20px;
+}
+
+.left-links, .right-links {
+    display: flex;
+    flex-direction: column;
 }
 
 .link-box {
@@ -48,5 +54,5 @@ body, html {
 }
 
 .link-box:hover {
-    background-color: #35C4B5; /* Darker mint on hover */
+    background-color: #2A9C8A; /* Darker mint on hover */
 }
