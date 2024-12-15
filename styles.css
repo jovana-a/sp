@@ -29,6 +29,8 @@ body, html {
 }
 .center-link {
     margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
 }
 .logo-width {
     width: 100%; /* Full width of the logo */
