@@ -30,6 +30,10 @@ body, html {
 .center-link {
     margin-bottom: 20px;
 }
+.full-width {
+    width: 100%; /* Full width of the container */
+    box-sizing: border-box; /* Ensure padding and border are included in the width */
+}
 .links {
     display: flex;
     justify-content: space-between;
