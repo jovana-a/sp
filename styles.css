@@ -30,8 +30,8 @@ body, html {
 .center-link {
     margin-bottom: 20px;
 }
-.full-width {
-    width: 100%; /* Full width of the container */
+.logo-width {
+    width: 100%; /* Full width of the logo */
     box-sizing: border-box; /* Ensure padding and border are included in the width */
 }
 .links {
@@ -45,7 +45,7 @@ body, html {
 }
 .link-box {
     display: block;
-    background-color: #35C4B5; /* Mint color */
+    background-color: transparent; /* Transparent background */
     margin: 10px 0;
     padding: 15px;
     text-decoration: none;
@@ -56,5 +56,5 @@ body, html {
     box-sizing: border-box; /* Ensure padding and border are included in the width */
 }
 .link-box:hover {
-    background-color: #2A9C8A; /* Darker mint on hover */
+    background-color: rgba(42, 156, 138, 0.5); /* Semi-transparent darker mint on hover */
 }
