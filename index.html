@@ -18,8 +18,7 @@
             background-position: center;
             height: 100%;
             display: flex;
-            justify-content: center;
-            align-items: center;
+                       align-items: center;
         }
         .container {
             background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white */
@@ -29,6 +28,10 @@
             box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
             text-align: center;
             position: relative;
+            transition: transform 0.3s; /* Smooth zoom transition */
+        }
+        .container:hover {
+            transform: scale(1.1); /* Zoom in on hover */
         }
         .top-image {
             width: 100%;
