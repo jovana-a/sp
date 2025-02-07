@@ -18,7 +18,8 @@
             background-position: center;
             height: 100%;
             display: flex;
-                       align-items: center;
+            justify-content: center;
+            align-items: center;
         }
         .container {
             background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white */
@@ -29,9 +30,6 @@
             text-align: center;
             position: relative;
             transition: transform 0.3s; /* Smooth zoom transition */
-        }
-        .container:hover {
-            transform: scale(1.1); /* Zoom in on hover */
         }
         .top-image {
             width: 100%;
@@ -71,11 +69,24 @@
         .link-box:hover {
             background-color: #2A9C8A; /* Darker mint on hover */
         }
+        .zoom-button {
+            margin-top: 20px;
+            padding: 10px 20px;
+            background-color: #35C4B5;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        .zoom-button:hover {
+            background-color: #2A9C8A;
+        }
     </style>
 </head>
 <body>
     <div class="background">
-        <div class="container">
+        <div class="container" id="zoom-container">
             <img src="Bluebar.jpg" alt="Top Image" class="top-image"> <!-- Replace with your image path -->
             <div class="center-link">
                 <a href="https://forms.office.com/r/s7crgJrqLZ?origin=lprLink" target="_blank" class="link-box logo-width">Brother Lead Contact Form</a>
@@ -92,8 +103,14 @@
                     <a href="https://jovana-a.github.io/visitor/index.html" target="_blank" class="link-box">Visitor Check In</a>
                 </div>
             </div>
+            <button class="zoom-button" onclick="zoomContainer()">Zoom</button>
         </div>
     </div>
-    <script src="script.js"></script>
+    <script>
+        function zoomContainer() {
+            const container = document.getElementById('zoom-container');
+            container.style.transform = container.style.transform === 'scale(1.1)' ? 'scale(1)' : 'scale(1.1)';
+        }
+    </script>
 </body>
 </html>
